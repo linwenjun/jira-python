@@ -18,6 +18,7 @@ def seg(str):
       .value()
   )
 
+# 取对数以便视觉上观察
 def getCount(w, c):
   return {'word': c, 'count': math.floor(math.log(len(w), 1.2))}
 
