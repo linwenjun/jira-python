@@ -4,6 +4,8 @@
 ```
 # 安装依赖包
 pip install -r requirements.txt
+# 修改 issue.py中的以下三个变量
+jiraUrlPrefix account password
 # 执行,python版本为3.5以上
 python issue.py
 ```

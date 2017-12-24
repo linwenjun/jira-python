@@ -6,7 +6,8 @@ import jieba
 import re
 import math
 
-jiraUrlPrefix = "https://hnalogistics4pd.atlassian.net/rest/api/2/search?jql=project=LPD&startAt="
+# 此处需要修改
+jiraUrlPrefix = "https://atlassian.net/rest/api/2/search?jql=project=LPD&startAt="
 account = 'YOUR_ACCOUNT'
 password = 'PASS'
 
